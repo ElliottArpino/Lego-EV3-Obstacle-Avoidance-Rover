@@ -1,4 +1,4 @@
-# EV3 Rover Obstacle Avoidance | AER627 – Space Robotics
+# Lego EV3 Obstacle Avoidance Rover | AER627 – Space Robotics
 
 This project involved the design, programming, and demonstration of a LEGO EV3 two-wheel differential rover for autonomous obstacle avoidance. The rover navigates toward a goal while avoiding obstacles using a hybrid of Potential Field and A* path planning, with a Proportional-Derivative (PD) controller executing the motion along a sparsified path.
 

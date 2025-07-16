@@ -11,7 +11,7 @@ This project involved the design, programming, and demonstration of a LEGO EV3 t
 ## Contents
 - [Project Report (PDF)](./627_project4_report.pdf) – Full write-up of design, theory, testing, tuning, and results
 - [Demo Video (MP4)](./project4_demo.mp4) – Real-world demonstration of rover path execution and avoidance
-- [MATLAB Code](./code_v3) – All source files including gradient planning, controller logic, and robot execution
+- [MATLAB Code](./code_v3.m) – All source files including gradient planning, controller logic, and robot execution
 
 ## Authors
 - Elliott Arpino  

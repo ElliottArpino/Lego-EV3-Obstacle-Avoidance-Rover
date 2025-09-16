@@ -44,6 +44,14 @@ The purple shaded square is the rover, while the grey shaded squares are the obs
 
 ## Occupancy Map
 
+
+## A* Path
+
+## Potential Field and Potential Field Path
+
+## Sparsified Path
+
+
 ## Authors
 - Elliott Arpino  
 - Octavio Guerra  

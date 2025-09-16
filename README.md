@@ -40,6 +40,10 @@ once the scene has been rendered into the program. The following figures show th
 ![Rendered Scene](Images_and_Plots/rendered_scene.png)  
 *Rendered Scene by MATLAB*
 
+The purple shaded square is the rover, while the grey shaded squares are the obstacles.
+
+## Occupancy Map
+
 ## Authors
 - Elliott Arpino  
 - Octavio Guerra  

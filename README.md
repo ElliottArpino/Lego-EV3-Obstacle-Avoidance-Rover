@@ -13,6 +13,16 @@ This project involved the design, programming, and demonstration of a LEGO EV3 t
 - [Demo Video (MP4)](./project4_demo.mp4) – Real-world demonstration of rover path execution and avoidance
 - [MATLAB Code](./code_v3.m) – All source files including gradient planning, controller logic, and robot execution
 
+## Rover
+
+A simple design for the rover was used, featuring 2 wheels both connected to their own motors, along with a stabilizing
+steel ball at the back providing structure and smoother movement. An image of the design can be seen below.
+
+![Rover](Images_and_Plots/rover.png)  
+*Rover Design*
+
+##
+
 ## Authors
 - Elliott Arpino  
 - Octavio Guerra  

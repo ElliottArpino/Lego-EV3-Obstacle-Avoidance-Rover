@@ -26,9 +26,9 @@ steel ball at the back providing structure and smoothing movement. An image of t
 Four Apriltags (barcode-like images) were used to generate a scene. A photo is taken of this scene, rendered and processed into the MATLAB program, and
 a 2 rover paths are produced. One path using the generation of a potential field, the other using A* path planning. The purpose for each barcode is described below:  
 
-apriltag 1: set the origin of the scene
-apriltag 2: set the location of the rover
-apriltag 3: obstacle 1
+apriltag 1: set the origin of the scene  
+apriltag 2: set the location of the rover  
+apriltag 3: obstacle 1  
 apriltag 4: obstacle 2  
 
 It is worth noting the start position is the initial position of the rover, while the end position (or end goal defining the end of the planned paths) is hard coded

@@ -58,12 +58,25 @@ A* in MATLAB is a grid-based shortest-path search that finds a collision-free ro
 ![A-star Path](Images_and_Plots/a_star_path.png)  
 *A-Star Path*
 
-As you can see the red path almost touches the occupied grids in order to achieve the shortest path from the initial position of the rover to the end position.  
-Which was hard-coded within the function.
+As you can see the red path almost touches the occupied grids in order to achieve the shortest path from the initial position of the rover to the end position. This end-position was hard-coded within the function.
 
 ## Potential Field and Potential Field Path
 
-## Sparsified Path
+The second path solution was done by plotting a vector field on top of the occupancy map using the gradient_path and quiver functions. A figure of this can be seen below.
+
+![Vector Field](Images_and_Plots/vector_field.png)  
+*Vector Field using gradientpath*
+
+The magnitude and density of the vectors (arrows) were continualy tested to produce a field that would plan an ideal path.
+
+Once the vector field was created, the path through the field was planned by using the followgradient function, producing the following result:
+
+![Vector Field Path](Images_and_Plots/vector_field_path.png)  
+*Vector Field Path using followgradient*
+
+The path beautifully follows the leading of the forces of the generated field, bringing the rover from the start to finish position in a manner that smoothly avoids the obstacles. 
+
+## Path Sparsification
 
 
 ## Authors

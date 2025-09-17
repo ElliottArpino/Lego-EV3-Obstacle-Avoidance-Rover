@@ -74,10 +74,16 @@ Once the vector field was created, the path through the field was planned by usi
 ![Vector Field Path](Images_and_Plots/vector_field_path.png)  
 *Vector Field Path using followgradient*
 
-The path beautifully follows the leading of the forces of the generated field, bringing the rover from the start to finish position in a manner that smoothly avoids the obstacles. 
+The path beautifully follows the forces of the generated field, bringing the rover from the start to finish position in a manner that smoothly avoids the obstacles. 
 
 ## Path Sparsification
 
+Once the vector field path was created, a set of waypoints was defined onto the vector path - defining the coordinates the rover needed to pass through (including the end-position coordinate). The followgradient path was sparsified.
+
+![Sparsified Path](Images_and_Plots/sparsified_path.png)  
+*Sparsified Path*
+
+A video of this in action can be seen in "Contents", where the video can be downloaded as an mp4 file.
 
 ## Authors
 - Elliott Arpino  

@@ -44,8 +44,22 @@ The purple shaded square is the rover, while the grey shaded squares are the obs
 
 ## Occupancy Map
 
+Once the Scene was taken, processed, and rendered, an occupancy map was generated. Its purpose is to model free and occupied space so that the rover (or algorithms) can plan paths, 
+avoid obstacles, and localize themselves.
+
+![Occupancy Map](Images_and_Plots/occupancy_map.png)  
+*Occupancy Map*
 
 ## A* Path
+
+Once a suitable 2D grid map environment was generated via the occupancy map, the path planning was made possible for the scene.  
+A* in MATLAB is a grid-based shortest-path search that finds a collision-free route across an occupancy map. For the scene that we generated, the A* path can be seen below.
+
+![A-star Path](Images_and_Plots/a_star_map.png)  
+*A-Star Path*
+
+As you can see the red path almost touches the occupied grids in order to achieve the shortest path from the initial position of the rover to the end position.  
+Which was hard-coded within the function.
 
 ## Potential Field and Potential Field Path
 

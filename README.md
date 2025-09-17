@@ -55,7 +55,7 @@ avoid obstacles, and localize themselves.
 Once a suitable 2D grid map environment was generated via the occupancy map, the path planning was made possible for the scene.  
 A* in MATLAB is a grid-based shortest-path search that finds a collision-free route across an occupancy map. For the scene that we generated, the A* path can be seen below.
 
-![A-star Path](Images_and_Plots/a_star_map.png)  
+![A-star Path](Images_and_Plots/a_star_path.png)  
 *A-Star Path*
 
 As you can see the red path almost touches the occupied grids in order to achieve the shortest path from the initial position of the rover to the end position.  
